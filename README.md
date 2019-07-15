@@ -5,7 +5,7 @@
 
 Web Application 
 
-DEMO:  http://tylerkiddportfolio.com/
+DEMO:  https://tylerckidd.github.io/Portfolio/
 
 
 ## Tools
