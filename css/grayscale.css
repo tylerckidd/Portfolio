@@ -211,7 +211,7 @@
   .projects-section .project-text hr {
     border-color: #f5950c;
     border-width: .25rem;
-    width: 30%;
+   
   }
 }
 
@@ -254,9 +254,9 @@
 }
 
 .contact-section .card hr {
-  border-color: #504b2d;
+  border-color: #f5950c;
   border-width: 0.25rem;
-  width: 3rem;
+
 }
 
 .contact-section .social {
