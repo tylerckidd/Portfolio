@@ -1,5 +1,5 @@
 
-![img](img/banner.png)
+![img](img/logo.png)
 
 # Project
 
