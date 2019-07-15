@@ -1,143 +1,505 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
   <head>
-  <title>My Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<!-- Font Awesome CDN -->
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    <title>Tyler Kidd Projects</title>
 
-<!-- Materialize CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-<link rel="stylesheet/css" href="css/style.css">
-<!-- Materialize JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
-</script>
-   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> 
-   <link rel="icon" type="image/gif" href="images/LOGO.png"/>
-</head>
-  
-<body>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-<!-- Navbar -->
-<div class="navbar-fixed">
-    <nav style="background-color: #c9bea6">
-        <div class="container">
-            <div="nav-wrapper">
-                <a href="#" class="brand-logo"></a>
-              
-                <ul class="right hide-on-med-and-down" id="navList">
-                    <li><a href="#landing">Home</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#work">Projects</a></li>
-                    
-                </ul>
-            </div>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          ><img src="img/logo.png" class="img-fluid" alt="" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            </li>
+          </ul>
         </div>
-      
-<!-- First page / Landing -->
-<div class="section" id="landing">
-        <h5 id="mainText" class="center">My Name Is</h5>
-        <h1 style="color:tan;"  class="center">
-          <b>TYLER</b> <b>KIDD</b>
-        </h1>
-  <h6 id="mainText" class="center">I am a Jr. Full Stack Web Developer</h6>
-</div>
-       
-            
-<!-- Second page / Intro -->
-<div id="intro" class="section" style="background-color: #b8ae98;">
-    <div class="container">
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Tyler Kidd</h1>
+          <h2 class="text-white mx-auto mt-2 mb-5">
+            Devloping software & designing the future
+          </h2>
+          <a href="#about" class="btn btn-warning js-scroll-trigger"
+            >About Me</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
         <div class="row">
-            <div  class="col s14">
-                <h2 class="center header" class="center" > Who is Tyler Kidd?</h2>
+          <div class="col-lg-8 mx-auto">
+            <h1 class="text-white mb-4">Who is Tyler Kidd?</h1>
+            <p class="text-white-50" style="padding: 40px">
+              I am a devloper/designer born and raised in Philadelphia.I develop
+              software specializing in building applications specific to the
+              business needs of my clients. I have done work in software
+              development, front-end/back-end web, database/server management,
+              and graphic design.To see more about me and what I am working on
+              click the link
+              <a href="https://www.tylerckidd.com/">here.</a>
+            </p>
+            <h1 class="text-white mb-4">Skills</h1>
+            <!-- Skill Bars -->
+            <h5 class="text-warning mb-4" style="padding: 20px">HTML</h5>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped bg-secondary progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 90%"
+              ></div>
             </div>
-          
-        </div>
-        <div class="row center">
-            <div class="col s12 m12 l3">
-                <img class="responsive-img" src="images/for code.jpeg">
+            <h5 class="text-white mb-4" style="padding: 20px">CSS/SASS</h5>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped bg-secondary progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 82%"
+              ></div>
             </div>
-            <dic class="col s12 m12 offset-l1 l8 ">
-             
-                <p> I am a designer and developer from Philadelphia, Designing has been my passion for over 6 years, 
-                    it's more than a job it's something that brings a thrill to my life. 
-                    Creating beyond the visions in my head and executing something beyond my belief is always a goal for me in design. 
-                    I am advance in adobe after effects photoshop and illustrator.
-                     I also have knowledge of frontend coding.
-                    I work very well with others, creating with others always expands the mind.
-                     When I have a project I work hard everyday until it meets it's best quality.
-                     Any opportunity of growth is a step forward for me.I want to change the course of
-                    design and try incorporating all of my design skills in various ways in technology.
-                </p>
-            </dic>
+
+            <h5 class="text-warning mb-4" style="padding: 20px">JAVASCRIPT</h5>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped bg-secondary progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 72%"
+              ></div>
+            </div>
+
+            <h5 class="text-white mb-4" style="padding: 20px">REACT</h5>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped bg-secondary progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 79%"
+              ></div>
+            </div>
+
+            <h5 class="text-warning mb-4" style="padding: 20px">MONGODB</h5>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped bg-secondary progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 65%"
+              ></div>
+            </div>
+
+            <h5 class="text-white mb-4" style="padding: 20px">MYSQL</h5>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped bg-secondary progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 73%"
+              ></div>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
-      
+        <img src="img/ipad.png" class="img-fluid" alt="" />
+      </div>
+    </section>
 
-   
-<!--Third page / Work -->
-<div class="section" style="background-color: #c9bea6" id="work">
-    <div class="container">
-        <h3 class="header text_b center">Projects</h3>
-        <div class="row ">
-            <div class="container" >
-                <div class="collection ">
-                        
-                        <a href=" https://tylerckidd.github.io/Psychic-Game/" class="collection-item">Psychic Game</a>
-                        <a href="https://tylerckidd.github.io/TriviaGame/" class="collection-item">"The Office" Trivia</a>
-                        <a href="https://tylerckidd.github.io/Train-Scheduler/" class="collection-item">Train-Scheduler</a>
-                        <a href="https://rpasqualone7.github.io/Group-Project-1/" class="collection-item">When Your Bored: Team Project</a>
-                        <a href="https://github.com/jrman523/project-2" class="collection-item">Last Min Gig: Team Project 2</a>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
+        <!-- Featured Project Row -->
 
-                      </div>
-              
-                      <div class="container center-align">
-                      <a href="https://github.com/tylerckidd" class="btn waves-effect waves-yellow" >Github</a>
-                     
-                      </div>
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img
+              class="img-fluid mb-3 mb-lg-0"
+              src="img/bg-project.png"
+              alt=""
+            />
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Let's Be Inspired</h4>
+              <p class="text-black-50 mb-0">
+                This is a developing app based around providing youth with
+                information on skills that can help inspire their future and
+                bulid their self-confidence.
+              </p>
+              <br />
+              <a
+                href="https://github.com/tylerckidd/LBI_APP"
+                class="btn btn-warning js-scroll-trigger"
+                style="padding: 10px"
+                >Details</a
+              >
+            </div>
+          </div>
+        </div>
 
-                      <br>
-                      
-                      <div class="container center-align"> 
-                        <a href="www.tylerckidd.com" class="btn waves-effect waves-yellow" >Website</a>
-                        </div>
-    </div>
-</div>
-      
-<div class="container center-align">
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/project2.png" alt="" />
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-left"
+                >
+                  <h4 class="text-white">Last Min Gig</h4>
+                  <p class="mb-0 text-white-50">
+                    A web application that helps employers find local talent &
+                    talented people find work easily and locally.
+                  </p>
+                  <br />
+                  <a
+                    href="https://lastmingig.herokuapp.com/"
+                    class="btn btn-warning js-scroll-trigger"
+                    style="padding: 10px"
+                    >Launch App</a
+                  >
+                  <hr class="d-none d-lg-block mb-0 ml-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<!-- Skill Sets -->
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="tylerckidd"><a class="LI-simple-link" href='https://www.linkedin.com/in/tylerckidd?trk=profile-badge'>Tyler Kidd</a></div>
-    
- </div>       
-    
-    </div>
-</div>
-      
-<footer class="section page-footer" style="background-color: #aca38f;">
-    <div class="container center-align">
-        &#169; Tyler Kidd 2018-2019
-    </div>
-      </footer>
-      
-</body>
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img
+              class="img-fluid"
+              src="img/game.png"
+              alt=""
+              width="700"
+              height="555"
+            />
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div
+                  class="project-text w-100 my-auto text-center text-lg-right"
+                >
+                  <h4 class="text-white">Crystal Collector</h4>
+                  <p class="mb-0 text-white-50">
+                    A web application game, click the crystal and add a specific
+                    amount of points to your total score. You win the game by
+                    matching your total score to the random number.
+                  </p>
+                  <br />
+                  <a
+                    href="https://tylerckidd.github.io/Collecting-Crystals/"
+                    class="btn btn-warning js-scroll-trigger"
+                    style="padding: 10px"
+                    >Play Game</a
+                  >
 
+                  <hr class="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <h1 style="padding: 60px">More Apps & Games</h1>
+          <!-- Slider with projects -->
+          <div class="bd-example">
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="2"
+                ></li>
+                <li
+                  data-target="#carouselExampleCaptions"
+                  data-slide-to="3"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/insider.png" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Insider Travel</h5>
+                    <p>Provides information on how to budget your trip.</p>
+                    <a
+                      href="https://insider-travel.herokuapp.com/"
+                      class="btn btn-warning js-scroll-trigger"
+                      style="padding: 10px"
+                      >Launch App</a
+                    >
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/office.png" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>"The Office" Trivia</h5>
+                    <p>
+                      Test what you know about "The Office"
+                    </p>
+                    <a
+                      href="https://tylerckidd.github.io/TriviaGame/"
+                      class="btn btn-warning js-scroll-trigger"
+                      style="padding: 10px"
+                      >Play Game</a
+                    >
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/train.png" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Train Going Choo Choo</h5>
+                    <p>
+                      Help yourself to the train scheduler for local train
+                      schedules uploaded by commuters & yourself!
+                    </p>
+                    <a
+                      href="https://tylerckidd.github.io/Train-Scheduler/"
+                      class="btn btn-warning js-scroll-trigger"
+                      style="padding: 10px"
+                      >Launch App</a
+                    >
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/gif.png" class="d-block w-100" alt="..." />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Giphy-Personality</h5>
+                    <p>
+                      Click the button that best represents you & see what funny
+                      gifs pop up!
+                    </p>
+                    <a
+                      href="https://tylerckidd.github.io/Giphy-Personality/"
+                      class="btn btn-warning js-scroll-trigger"
+                      style="padding: 10px"
+                      >Launch App</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleCaptions"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleCaptions"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+            <h1 class="text-white mb-4">Resume</h1>
+            <embed
+              src="Resume.pdf"
+              class="w3-container w3-card"
+              width="420"
+              height="555"
+            />
+            <!-- <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
 
+            <form class="form-inline d-flex">
+              <input
+                type="email"
+                class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
+                id="inputEmail"
+                placeholder="Enter email address..."
+              />
+              <button type="submit" class="btn btn-warning mx-auto">
+                Subscribe
+              </button>
+            </form> -->
+          </div>
+        </div>
+      </div>
+    </section>
 
-<script type="text/javascript" src="javascript/materialize.min.js"></script>
-<script type="text/javascript" src="javascript/materialize.js"></script> 
-<script>
+    <!-- Contact Section -->
 
+    <section class="contact-section bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas far fa-copy text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Website</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <a href="#">tylerckidd.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">
+                  <a href="#">tylerckiddcontact@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4" />
+                <div class="small text-black-50">215-803-0991</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="text-white mb-4" style="padding: 50px;text-align: center">
+          Hope to hear from you soon.
+        </h1>
+        <div class="social d-flex justify-content-center">
+          <a href="https://www.instagram.com/tylerckidd/" class="mx-2">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/tyler.kidd.988" class="mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://github.com/tylerckidd" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/tylerckidd/" class="mx-2">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </section>
 
-</script>
- 
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; Tyler Kidd Projects 2019
+      </div>
+    </footer>
 
-    
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+  </body>
 </html>
