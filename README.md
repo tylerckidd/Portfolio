@@ -1,7 +1,7 @@
 
 ![img](img/logo.png)
 
-Tyler Kidd's Portfolio
+## Tyler Kidd's Portfolio
 
 Web Application 
 
