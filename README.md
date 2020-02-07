@@ -1,11 +1,11 @@
 
-![img](img/banner.png)
+![img](img/logo.png)
 
-# Project
+## Tyler Kidd's Portfolio
 
-Porfolio: Web Application 
+Web Application 
 
-DEMO: https://tylerckidd.github.io/Portfolio/
+DEMO:  https://tylerckidd.github.io/Portfolio/
 
 
 ## Tools
